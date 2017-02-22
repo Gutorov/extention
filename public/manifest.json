@@ -9,6 +9,16 @@
     "128": "icon-128.png"
   },
   "options_page": "index.html",
+  "background": {
+    "page": "index.html"
+  },
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_popup": "index.html#/popup"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
   "permissions": [
     "<all_urls>",
     "tabs",
@@ -16,16 +26,5 @@
     "background",
     "alarms",
     "storage"
-  ],
-  "background": {
-    "page": "index.html#/popup"
-
-  },
-  "browser_action": {
-    "default_icon": "icon-16.png",
-    "default_popup": "index.html"
-  },
-  "chrome_url_overrides": {
-    "newtab": "index.html"
-  }
+  ]
 }
