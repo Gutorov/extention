@@ -1,5 +1,6 @@
 {
   "name": "tab-butler",
   "dependencies": {
+    "blob-polyfill": "^1.0.20150320"
   }
 }
